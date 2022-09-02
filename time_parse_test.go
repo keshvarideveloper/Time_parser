@@ -11,7 +11,7 @@ func TestParseTime(t *testing.T) {
 		{"4:5:9", true},
 		{"12:00:00", true},
 		{"00:00:00", true},
-		{"-1:05:00", false},
+		{"-1:05:00", true},
 		{"23:05:60", false},
 		{"15:65:01", false},
 		{"s:h:59", false},
