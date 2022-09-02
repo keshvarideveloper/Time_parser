@@ -18,7 +18,7 @@ func TestParseTime(t *testing.T) {
 	}
 
 	for _, data := range table {
-		_, err := ParserTime(data.time)
+		_, err := ParseTime(data.time)
 		if data.ok && err != nil {
 			t.Errorf("%v: %v, error should be nil", data.time, err)
 		}
