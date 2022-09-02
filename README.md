@@ -22,7 +22,7 @@ Output: {22 5 25}
 ### Output with invalid string time
 ```bash
 Input: "25:10:25"
-Output: 25:10:25: Hour out of range : 0 <= hour <= 23: -1, error should be nil
+Output: 25:10:25: Hour out of range : 0 <= hour <= 23: 25, error should be nil
 ```
 
 ## Usage/Examples
